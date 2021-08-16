@@ -7,7 +7,6 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -28,12 +27,9 @@ Users should be able to:
 
 ![](./screenshots)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ## My process
+
+I built this component in a day. Started with HTML and some basic CSS. After that I made the component work and calculate the tip with JavaScript. At the end I finished by giving it some bootstrap classes and makking it look nicer, and also making it be responsive on different screen width.
 
 ### Built with
 
