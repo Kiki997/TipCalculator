@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <h1>SPLI<br>TTER</h1>
+<div class="row">
+  <div class="container-main col-8 col-md-7 col-lg-6 offset-3 rounded ">
+   <div class="row">
+
+    <div class="left-container col-8 col-md-6 col-12" >
+      
+      <label for="bill">Bill</label><br>
+      
+      <input type="text" name="bill" id="bill" placeholder="0">
+     
+
+      <div class="container mt-4">
+        <div class="row">
+          <label>  Select Tip %</label><br>
+        </div>
+     
+      
+     
+      <div class="percentages mt-1">
+        <div class="row ">
+        <button class="badge dark col-5 col-md-3" value="5">5%</button>
+        <button class="badge dark col-5 col-md-3 " value="10">10%</button>
+        <button class="badge dark col-5 col-md-3" value="15">15%</button>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+        <button class="badge dark col-5 col-md-3" value="25">25%</button>
+        <button class="badge dark col-5 col-md-3" value="50">50%</button>
+        <input type="text" class="col-5 col-md-3 rounded"  placeholder="Custom" id="custom">
+      </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <div class="row">
+        <label for="people">Number of people</label><label id="errMsg"></label><br>    
+       <input type="text" name="people" id="people" placeholder="0">
+      </div>
+    </div>
+      </div>
+      <div class="right-container col-11 col-md-6 rounded">
+        <div class="row ml-2">
+          <div class="col-6 col-md-6">
+            <label class="info-text">Tip Amount</label><br>
+            <label class="details">/ person</label>
+
+          </div>
+          <div class=" col-6 col-md-6">
+            <label class="value" id="tipAmount">$0.00</label>
+          </div>
+        </div>
+       <div class="row mt-5 ml-2">
+         <div class="col-6 col-md-6">
+          <label class="info-text"> Total  </label><br>
+          <label class="details">  / person </label> 
+          </div>
+          <div class="col-6 col-md-6 ">
+            <label class="value" id="totalAmount">$0.00</label>
+          </div>
+    
+         </div>
+         <div class="row ">
+           <button class="btn mt-5 button" >RESET</button>
+         </div>
+       </div>    
+      </div>
+    </div>
+ </div>
+</div>
+<div class="attribution col-12 ">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#"> Kristina Petrova </a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
